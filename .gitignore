@@ -1,0 +1,10 @@
+# Assembly
+*.bin
+*.prg
+*.obj
+*.o
+*.lst
+
+# OS Files
+.DS_Store
+Thumbs.db
