@@ -1,3 +1,6 @@
+; hello world with white text centered on a black background
+; spawn 25-09-2026
+
 START       = $2000
 
 ; --- OS shadow registers ---
