@@ -1,6 +1,10 @@
-; SpawnTerror 20-09-2026
-; hello.asm
-; My first asm program for Atari 65 XE
+; -----------------------------------------------------------------------------
+; Program:     hello-world.asm
+; Description: Hello World in 6052 assembler
+; Author:      Spawn
+; Date:        2026-09-20
+; Platform:    Atari 8-bit / 6502
+; -----------------------------------------------------------------------------
 
     ; column 0 - labels 
     ; column 1 - instructions eg. lda, sta and directives eg. ORG, dta
