@@ -1,7 +1,12 @@
-; hello world with white text centered on a black background
-; spawn 25-09-2026
+; -----------------------------------------------------------------------------
+; Program:     hello-world-justify-colour.asm
+; Description: Hello World using white text and black background
+; Author:      Spawn
+; Date:        2026-09-25
+; Platform:    Atari 8-bit / 6502
+; -----------------------------------------------------------------------------
 
-START       = $2000
+    ORG $2000 
 
 ; --- OS shadow registers ---
 COLOUR1     = $02C5     ; Text colour luminace
@@ -27,9 +32,6 @@ COLCRS      = $55       ; OS Column Cursor
 ; --- System vectors and hardware ---
 WARMSV      = $E477     ; OS warm restart (exit)
 CH          = $02FC     ; Internal hardware keyboard code (pressed key)
-
-; --- Define the memory address ---
-    ORG START
 
 main:
     ; STEP 1: Configure screen colours 
