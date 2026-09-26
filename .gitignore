@@ -8,3 +8,7 @@
 # OS Files
 .DS_Store
 Thumbs.db
+
+# Build output
+out/
+bin/
