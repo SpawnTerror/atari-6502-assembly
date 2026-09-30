@@ -1,2 +1,2 @@
 6502 Assembly
-Life was hard. Now it's harder.
+Life was interesting. Now it's interestinger.
