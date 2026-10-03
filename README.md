@@ -1,2 +1,2 @@
-6502 Assembly
-Life was interesting. Now it's interestinger.
+Learning 6502 Assembly
+Using MADS
