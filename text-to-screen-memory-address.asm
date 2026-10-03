@@ -1,6 +1,7 @@
 ; -----------------------------------------------------------------------------
 ; Program:     text-to-screen-memory-address.asm
-; Description: Use a pointer to physical screen memory location
+; Description: Use a pointer to a physical screen's memory location
+;              and store the letters there
 ; Author:      Spawn
 ; Date:        2026-10-03
 ; Platform:    Atari 8-bit / 6502
