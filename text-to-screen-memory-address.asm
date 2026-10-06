@@ -9,20 +9,18 @@
 
     org $2000
 
-
 SAVMSC = $0058
 WARMSV = $E477
 CH     = $02FC
 
 main:
-
     ldy #$00
 
 loop
     lda hello, y
     sta (SAVMSC),y
     iny
-    cpy #19
+    cpy #12
     bne loop
 
 repeat:
@@ -32,5 +30,4 @@ repeat:
     jmp WARMSV
 
 hello:
-;    .byte 'Hello World!'
     dta d'Hello World!'
