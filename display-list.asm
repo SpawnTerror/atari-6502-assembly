@@ -15,7 +15,7 @@ SDLSTL = $0230      ; display list address
 
 screen_buffer           = $4000
 eight_blank_lines       = $70   ; %01110000 for 8 blank lines for overscan
-antic_mode              = 5     ; %00000010 lower bit for the graphics mode 5, 40 x 12 rows
+antic_mode              = 5     ; %00000101 lower bits for the graphics mode 5, 40 x 12 rows
 load_memory_scan        = $40   ; %01000000 bit 6 request a memory pointer update
 jump_to_vertical_blank  = $41   ; jump loop
 
